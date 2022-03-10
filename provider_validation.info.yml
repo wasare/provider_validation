@@ -1,0 +1,7 @@
+type: module
+name: '[Provider] Validation'
+description: Custom Validations
+package: Provider
+core_version_requirement: ^9
+dependencies:
+  - path:path

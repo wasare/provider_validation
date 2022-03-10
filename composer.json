@@ -1,0 +1,29 @@
+{
+  "name": "wasare/provider_validation",
+  "type": "drupal-module",
+  "description": "Provides a custom validations constraints.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/wasare/provider_validation",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/wasare/provider_validation/issues",
+    "source": "https://github.com/wasare/provider_validation"
+  },
+  "repositories": {
+      "wasare": {
+          "type": "path",
+          "url": "https://github.com/wasare/provider_validation"
+      }
+  },
+  "extra": {
+      "branch-alias": {
+          "dev-main": "1.0.x-dev"
+      }
+  },
+  "require-dev": {
+    "drupal/coder": "^8.3",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.6.0"
+  }
+}
