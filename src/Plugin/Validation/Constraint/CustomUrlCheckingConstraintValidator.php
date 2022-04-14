@@ -42,7 +42,7 @@ class CustomUrlCheckingConstraintValidator extends ConstraintValidator {
         $this->context->addViolation($constraint->notUnique,
             [
               '%value' => $value,
-              '%info' => $this->t('This URL suffix already taken.'),
+              '%info' => t('This URL suffix already taken'),
             ]
           );
         $is_unique = FALSE;
@@ -63,7 +63,7 @@ class CustomUrlCheckingConstraintValidator extends ConstraintValidator {
           $this->context->addViolation($constraint->notUnique,
             [
               '%value' => $value,
-              '%info' => $this->t('This URL suffix already taken.'),
+              '%info' => t('This URL suffix already taken'),
             ]
           );
           $is_unique = FALSE;
